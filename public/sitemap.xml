@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://zaki.manian.org/blog/10-year-blockchain/</loc>
+    <lastmod>2017-08-11T13:15:24-07:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zaki.manian.org/blog/hello-world/</loc>
     <lastmod>2017-06-24T10:52:49-07:00</lastmod>
   </url>
@@ -19,7 +24,7 @@
   
   <url>
     <loc>https://zaki.manian.org/blog/</loc>
-    <lastmod>2017-06-24T10:52:49-07:00</lastmod>
+    <lastmod>2017-08-11T13:15:24-07:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -35,7 +40,7 @@
   
   <url>
     <loc>https://zaki.manian.org/</loc>
-    <lastmod>2017-06-24T10:52:49-07:00</lastmod>
+    <lastmod>2017-08-11T13:15:24-07:00</lastmod>
     <priority>0</priority>
   </url>
   
