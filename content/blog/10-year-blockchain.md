@@ -40,7 +40,7 @@ Here is a non-comprehensive list all the things we need to permanently alter how
 - We need to determine if decentralized mechanisms can be significant liquidity providers or if the ideal solution is audible 
 
 ## Trusted Computing
-- Tooling for SGX and it’s successors needs tremendous work
+- Tooling for SGX and it’s successors needs tremendous work. [Baidu](https://github.com/baidu/rust-sgx-sdk)'s work on top of SGX is a good first 
 - HSM’s need to either modernize or be replaced
 - We need multiple vendors of modern TEEs
 - TEEs need to become available in edge devices to ensure a secure boundary between the physical and blockchain world.
@@ -48,6 +48,6 @@ Here is a non-comprehensive list all the things we need to permanently alter how
 
 ## Other Resources
 - [Ethereum Open Problems](https://github.com/ethereum/wiki/wiki/Problems)
--[toVitalik's Hard Problems in Crypto](https://www.youtube.com/watch?v=p5qwbOkCZSc)
+-[Vitalik's Hard Problems in Crypto](https://www.youtube.com/watch?v=p5qwbOkCZSc)
 
 
