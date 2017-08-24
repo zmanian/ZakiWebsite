@@ -46,6 +46,8 @@ Here is a non-comprehensive list all the things we need to permanently alter how
 - TEEs need to become available in edge devices to ensure a secure boundary between the physical and blockchain world.
 
 
-
+## Other Resources
+- [Ethereum Open Problems](https://github.com/ethereum/wiki/wiki/Problems)
+-[toVitalik's Hard Problems in Crypto](https://www.youtube.com/watch?v=p5qwbOkCZSc)
 
 
