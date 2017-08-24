@@ -12,7 +12,7 @@ Here is a non-comprehensive list all the things we need to permanently alter how
 
 
 ## Cryptographic Engineering
-- Safe, mature libraries for implementing complex protocols. NACL and libsodium aren’t going to cut it. Bitcoin-Core’s libsecp256k1 and Isis & Henry’s curve25519- salek are the way forward
+- Safe, mature libraries for implementing complex protocols. NACL and libsodium aren’t going to cut it. Bitcoin-Core’s [libsecp256k1](https://github.com/bitcoin-core/secp256k1) and Isis & Henry’s [curve25519-dalek](https://github.com/isislovecruft/curve25519-dalek) are the way forward
 - Zero knowledge proof libraries need to be substantially matured. Libsnark and the forthcoming STARK work need mature, battle tested domain specific languages and compilers for securely implementing protocols as well as additional research.  All of the anonymous credentials spaces will yield considerable fruits from being commercialized.
 - We need a verifiable data structures library and standard in every possible programming language.
 - We need signature and other cryptographic systems suitable for low resource devices yet secure enough for blockchain applications
@@ -27,7 +27,7 @@ Here is a non-comprehensive list all the things we need to permanently alter how
 
 
 ## Governance
-- We need robust technical and social systems to govern blockchain networks. Authority should be managed in audible and verifiable methods.
+- We need robust technical and social systems to govern blockchain networks. Authority should be managed in auditable and verifiable methods via smart contracts.
 - Validators need to become more organizationally mature. To achieve scale, we need to be able to start believing that networks have validators capable of operating high availability, high security infrastructures. 
 - There needs to be systems for managing and indemnifying validators against regulatory and other risks .
 - A set of social institutions need to be built to facilitate shared networks between enterprises and to govern interactions between public networks and large enterprises.
