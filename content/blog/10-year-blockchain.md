@@ -3,19 +3,22 @@ title: "10 Year Blockchain"
 date: 2017-08-11T13:15:24-07:00
 ---
 
+[普通话](https://mp.weixin.qq.com/s/eFSkAVjj2ekQZgLBqGhGeg)
+
 # A 10 year blockchain tech roadmap
 The ICO boom has released a massive new set of resources for blockchain research and development. For the 1st time, the sector has a entry level resources for developing a radical new set of tools for the global(solar?)  economy. 
 
 Our goal for the next 10-15 years are clear. Blockchain based systems should be the most useful and powerful liquidity rails for all kinds of assets. We have an immense amount of work to do fulfill the nascent potential of the blockchain space.
 
-Here is a non-comprehensive list all the things we need to permanently alter how capital allocated and managed in the global economy.
+Here is a non-comprehensive list all the things we need to permanently alter how capital is allocated and managed in the global economy.
 
 
 ## Cryptographic Engineering
 - Safe, mature libraries for implementing complex protocols. NACL and libsodium aren’t going to cut it. Bitcoin-Core’s [libsecp256k1](https://github.com/bitcoin-core/secp256k1) and Isis & Henry’s [curve25519-dalek](https://github.com/isislovecruft/curve25519-dalek) are the way forward
 - Zero knowledge proof libraries need to be substantially matured. Libsnark and the forthcoming STARK work need mature, battle tested domain specific languages and compilers for securely implementing protocols as well as additional research.  All of the anonymous credentials spaces will yield considerable fruits from being commercialized.
 - We need a verifiable data structures library and standard in every possible programming language.
-- We need signature and other cryptographic systems suitable for low resource devices yet secure enough for blockchain applications
+- We need signature and other cryptographic systems suitable for low resource devices yet secure enough for blockchain applications.
+
 
 ## Blockchain Protocols
 - We need to learn if we can build secure proof of stake and/or proof of useful work systems.  Proof of work demands very little in terms of competence 
