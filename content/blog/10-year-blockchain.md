@@ -3,7 +3,7 @@ title: "10 Year Blockchain"
 date: 2017-08-11T13:15:24-07:00
 ---
 
-[普通话](https://mp.weixin.qq.com/s/eFSkAVjj2ekQZgLBqGhGeg)
+[在普通话](https://mp.weixin.qq.com/s/eFSkAVjj2ekQZgLBqGhGeg)
 
 # A 10 year blockchain tech roadmap
 The ICO boom has released a massive new set of resources for blockchain research and development. For the 1st time, the sector has a entry level resources for developing a radical new set of tools for the global(solar?)  economy. 
