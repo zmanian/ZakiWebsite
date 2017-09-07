@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="chrome=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer">
+<meta name="description" content="Zaki Cryptography, Blockchains etc">
+
+<base href="https://zaki.manian.org/">
+<title>
+
+
+     Learning About ZK SNARKs 
+
+</title>
+<link rel="canonical" href="https://zaki.manian.org/blog/learning-about-zk-snarks/">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.6.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Ubuntu+Mono:400,400i,700,700i|Raleway:500|Work+Sans">
+
+
+
+    
+    <link rel="stylesheet" href="https://zaki.manian.org/css/light-style.css?t=1504827760">
+    
+
+
+
+
+<link rel="shortcut icon"
+
+    href="https://zaki.manian.org/img/fav.ico"
+
+>
+
+
+
+
+
+
+
+
+</head>
+
+<body lang="en">
+  
+
+<div class="section" id="top">
+
+    <div class="container hero  fade-in one ">
+    <h1 class="bold-title is-1">Zaki's Blog</h1>
+    </div>
+
+
+<div class="section  fade-in two ">
+
+    <div class="container">
+    <hr>
+<nav class="nav nav-center">
+    <span id="nav-toggle" class="nav-toggle"  onclick="document.getElementById('nav-menu').classList.toggle('is-active');">
+      <span></span>
+      <span></span>
+      <span></span>
+    </span>
+    <div id="nav-menu" class="nav-left nav-menu">
+      <span class="nav-item">
+        <a href="https://zaki.manian.org/">Main</a>
+      </span>
+      <span class="nav-item">
+        <a href="https://zaki.manian.org/#about">About</a> 
+      </span>
+    
+    
+      <span class="nav-item">
+        <a href="https://zaki.manian.org/#blog">Back to blog</a> 
+      </span>
+    
+      <span class="nav-item">
+        <a href="https://zaki.manian.org/#contact">Contact</a>
+      </span>
+    
+      <span class="nav-item">
+        <a href="https://zaki.manian.org/index.xml"><i class="fa fa-rss"></i></a>
+      </span>
+    
+    </div>
+</nav>
+<hr>
+    </div>
+
+    <div class="container  fade-in two ">
+        <h2 class="title is-1 top-pad strong-post-title"><a href="https://zaki.manian.org/blog/learning-about-zk-snarks/">Learning About ZK SNARKs</a></h2>
+            <div class="post-data">
+                Sep 7, 2017 |
+                3 minutes read
+            </div>
+
+            
+
+    </div>
+
+    <div class="container markdown  fade-in two  top-pad">
+        
+
+<h1 id="learning-about-zk-snarks">Learning About ZK-SNARKs</h1>
+
+<p>ZK SNARKs are one of the most amazing products of modern cutting edge cryptography. They let a prover secretly run a program of arbitrary complexity and generate a compact proof that any can verify that correctly ran the program. The program can have secret inputs and prover reveals nothing to the user.</p>
+
+<p>Zk SNARKs have been productionized in the ZCash cryptocurrency and many other protocols are examining using them. ZK-SNARKs represent a culimination of decades of research into the field anonymous credentials. Blockchain transasctions are a type of credential and the potential applications of SNARK transactions in a blockchain context seem limitless.</p>
+
+<p>SNARKs are a synthesis of multiple areas of cryptography and theoretical computer science that were unified into a cohesive whole. This requires conducting a survey over a large field of research.</p>
+
+<p>The resources below are a great starting point.</p>
+
+<h2 id="surveys">Surveys</h2>
+
+<ol>
+<li><a href="https://blog.ethereum.org/2016/12/05/zksnarks-in-a-nutshell/">ZK-SNARKs in a Nut Shell</a></li>
+</ol>
+
+<p>Ethereum have been very interested getting the ability to evalute various SNARK protocols into the Ethereum system to enhance the privacy properties of smart contracts. This survery of SNARKs is very comprehensive and good jumping off point for someone familar with cryptography.</p>
+
+<ol>
+<li>Eran Tromer&rsquo;s introduction to SNARKs is a also a decent jumping off point.</li>
+</ol>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/ViIK2Ly-Xjo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<h2 id="qudratic-arithmetic-programs">Qudratic Arithmetic Programs</h2>
+
+<ol>
+<li><a href="https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649">Quadratic Arithmetic Programs: from Zero to Hero</a></li>
+</ol>
+
+<p>SNARKs are a synthesis that occured when reseachers observed that progress in compiling aribrary programs into arithmetic function could be combined with progress in certain fields of partially homomorphic cryptography. Vitalik does a deep dive into how simple programs get turned into arhtmetic functions. This is one of the most magical parts of the SNARK system.</p>
+
+<ol>
+<li><a href="https://courses.cs.ut.ee/MTAT.07.022/2013_fall/uploads/Main/alisa-report">Succinct Non-Interactive Arguments from Quadratic Arithmetic Programs</a></li>
+</ol>
+
+<p>Alisa Pankova did an incredible literature review of the entire field of Quadratic arithemetic programs.</p>
+
+<h2 id="pairing-cryptography">Pairing Cryptography</h2>
+
+<ol>
+<li><a href="Pairings for Beginners">http://www.craigcostello.com.au/pairings/PairingsForBeginners.pdf</a></li>
+</ol>
+
+<p>Highly reccomend Parings for Beginners for learning about the pairing cryptosystems that allow QAPs to generate such compact proofs</p>
+
+<h2 id="core-snark-papers">Core SNARK papers</h2>
+
+<ol>
+<li><p><a href="https://eprint.iacr.org/2013/507.pdf">SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge</a></p></li>
+
+<li><p><a href="https://eprint.iacr.org/2013/879.pdf">Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture</a></p></li>
+
+<li><p><a href="https://eprint.iacr.org/2014/580.pdf">The Hunting Of the SNARK</a></p></li>
+</ol>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/4fzz6of5KI4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<h2 id="recent-research">Recent research</h2>
+
+<ol>
+<li><a href="https://eprint.iacr.org/2016/260">On The Size of Pairing-based Non-Interactive Arguments</a></li>
+</ol>
+
+
+<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
+  <iframe src="//www.youtube.com/embed/OseAdq0CoOY" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
+ </div>
+
+
+<p>2016 work from Jens Goth that shrinks the size of proofs to their theoretical limits, increases speed of verification and potentially increases the number of parties involved in generating the CRS dramatically. Will be used in the next ZCash protocol upgrade.</p>
+
+<ol>
+<li><a href="https://eprint.iacr.org/2017/540">Snarky Signatures: \ Minimal Signatures of Knowledge from Simulation-Extractable SNARKs</a></li>
+</ol>
+
+<p>2017 work from Goth that trade larger proofs for built in non-malleability.</p>
+
+<ol>
+<li><a href="https://eprint.iacr.org/2017/540">A multi-party protocol for constructing the public parameters of the Pinocchio zk-SNARK</a></li>
+</ol>
+
+<p>The Techniques Zcash used in their CRS generation ceremony.</p>
+
+    </div>
+
+    <div class="disqus">
+        
+    </div>
+
+<div class="container has-text-centered top-pad">
+<hr>
+<a href="https://zaki.manian.org/blog/learning-about-zk-snarks/#top"><i class="fa fa-arrow-up"></i></a>
+<hr>
+</div>
+
+<div class="section" id="footer">
+    <div class="container has-text-centered">
+        
+        <span class="footer-text"><a href="https://github.com/hivickylai/hugo-theme-introduction" target="_blank">Introduction</a> theme for <a href="http://gohugo.io/" target="_blank">Hugo</a>. Made with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i>. <a href="https://vickylai.io" target="_blank">Vicky Lai</a> 2017</span>
+        
+    </div>
+</div>
+</div>
+</div>
+
+
+<script>
+$('a[href^="https:\/\/zaki.manian.org\/blog\/learning-about-zk-snarks\/#"]').click(function(e) {
+    e.preventDefault();
+    var target = this.hash;
+    $('html, body').animate({
+    scrollTop: $(target).offset().top
+    }, 500);
+    return false;
+})
+</script>
+
+</body>
