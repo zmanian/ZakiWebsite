@@ -4,7 +4,6 @@ date: 2017-09-07T13:38:05-07:00
 draft: false
 ---
 
-# Learning About ZK-SNARKs
 
 ZK SNARKs are one of the most amazing products of modern cutting edge cryptography. They let a prover secretly run a program of arbitrary complexity and generate a compact proof that any can verify that correctly ran the program. The program can have secret inputs and prover reveals nothing to the user.
 
@@ -46,6 +45,8 @@ Highly reccomend Parings for Beginners for learning about the pairing cryptosyst
 ## Core SNARK papers
 
 1. [SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge](https://eprint.iacr.org/2013/507.pdf)
+
+Check out Appendix A. It's p cool on how simple verification is.
 
 2. [Succinct Non-Interactive Zero Knowledge for a von Neumann Architecture](https://eprint.iacr.org/2013/879.pdf)
 
