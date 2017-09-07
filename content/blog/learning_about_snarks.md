@@ -61,6 +61,14 @@ Highly reccomend Parings for Beginners for learning about the pairing cryptosyst
 
 {{< youtube OseAdq0CoOY >}}
 
+2016 work from Jens Goth that shrinks the size of proofs to their theoretical limits, increases speed of verification and potentially increases the number of parties involved in generating the CRS dramatically. Will be used in the next ZCash protocol upgrade.
+
+
 2. [Snarky Signatures: \\ Minimal Signatures of Knowledge from Simulation-Extractable SNARKs](https://eprint.iacr.org/2017/540)
 
+2017 work from Goth that trade larger proofs for built in non-malleability.
+
+
 3. [A multi-party protocol for constructing the public parameters of the Pinocchio zk-SNARK](https://eprint.iacr.org/2017/540)
+
+The Techniques Zcash used in their CRS generation ceremony.
