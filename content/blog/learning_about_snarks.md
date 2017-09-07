@@ -4,7 +4,7 @@ date: 2017-09-07T13:38:05-07:00
 draft: false
 ---
 
-#Learning About ZK-SNARKs
+# Learning About ZK-SNARKs
 
 ZK SNARKs are one of the most amazing products of modern cutting edge cryptography. They let a prover secretly run a program of arbitrary complexity and generate a compact proof that any can verify that correctly ran the program. The program can have secret inputs and prover reveals nothing to the user.
 
