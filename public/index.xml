@@ -17,8 +17,8 @@
       <pubDate>Thu, 07 Sep 2017 13:38:05 -0700</pubDate>
       
       <guid>https://zaki.manian.org/blog/learning-about-zk-snarks/</guid>
-      <description>Learning About ZK-SNARKs ZK SNARKs are one of the most amazing products of modern cutting edge cryptography. They let a prover secretly run a program of arbitrary complexity and generate a compact proof that any can verify that correctly ran the program. The program can have secret inputs and prover reveals nothing to the user.
-Zk SNARKs have been productionized in the ZCash cryptocurrency and many other protocols are examining using them.</description>
+      <description>ZK SNARKs are one of the most amazing products of modern cutting edge cryptography. They let a prover secretly run a program of arbitrary complexity and generate a compact proof that any can verify that correctly ran the program. The program can have secret inputs and prover reveals nothing to the user.
+Zk SNARKs have been productionized in the ZCash cryptocurrency and many other protocols are examining using them. ZK-SNARKs represent a culimination of decades of research into the field anonymous credentials.</description>
     </item>
     
     <item>
