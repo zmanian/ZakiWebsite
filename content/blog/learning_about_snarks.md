@@ -5,9 +5,9 @@ draft: false
 ---
 
 
-ZK SNARKs are one of the most amazing products of modern cutting edge cryptography. They let a prover secretly run a program of arbitrary complexity and generate a compact proof that any can verify that correctly ran the program. The program can have secret inputs and prover reveals nothing to the user.
+ZK SNARKs are one of the most amazing products of modern cutting edge cryptography. They let a prover secretly run a program of arbitrary complexity and generate a compact proof that any can verify that correctly ran the program. The program can have secret inputs and the prover reveals nothing to the user.
 
-Zk SNARKs have been productionized in the ZCash cryptocurrency and many other protocols are examining using them. ZK-SNARKs represent a culimination of decades of research into the field anonymous credentials. Blockchain transasctions are a type of credential and the potential applications of SNARK transactions in a blockchain context seem limitless.
+Zk SNARKs have been deployed in the ZCash cryptocurrency and many other protocols are examining using them. SNARKs represent the culimination of decades of research into the field anonymous credentials. Blockchain transactions are a type of credential and the potential applications of SNARK transactions in a blockchain context seem limitless.
 
 SNARKs are a synthesis of multiple areas of cryptography and theoretical computer science that were unified into a cohesive whole. This requires conducting a survey over a large field of research.
 
