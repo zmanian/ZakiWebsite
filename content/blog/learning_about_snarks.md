@@ -30,7 +30,7 @@ Ethereum have been very interested getting the ability to evalute various SNARK 
 ## Qudratic Arithmetic Programs
 1. [Quadratic Arithmetic Programs: from Zero to Hero](https://medium.com/@VitalikButerin/quadratic-arithmetic-programs-from-zero-to-hero-f6d558cea649)
 
-SNARKs are a synthesis that occured when reseachers observed that progress in compiling aribrary programs into arithmetic function could be combined with progress in certain fields of partially homomorphic cryptography. Vitalik does a deep dive into how simple programs get turned into arhtmetic functions. This is one of the most magical parts of the SNARK system.
+SNARKs are a synthesis of multiple lines of research the combined reseachers observed that progress in compiling aribrary programs into arithmetic functions could be combined with progress in certain fields of partially homomorphic cryptography. Vitalik does a deep dive into how simple programs get turned into arhtmetic functions. This is one of the most magical parts of the SNARK system.
 
 2. [Succinct Non-Interactive Arguments from Quadratic Arithmetic Programs](https://courses.cs.ut.ee/MTAT.07.022/2013_fall/uploads/Main/alisa-report)
 
