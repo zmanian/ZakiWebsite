@@ -55,6 +55,10 @@ Check out Appendix A. It's p cool on how simple verification is.
 
 {{< youtube 4fzz6of5KI4 >}}
 
+4. [Succinct Non-Interactive Arguments via Linear Interactive Proofs](https://eprint.iacr.org/2012/718.pdf)
+
+
+
 ## Recent research
 
 1. [On The Size of Pairing-based Non-Interactive Arguments](https://eprint.iacr.org/2016/260)
@@ -73,3 +77,5 @@ Check out Appendix A. It's p cool on how simple verification is.
 3. [A multi-party protocol for constructing the public parameters of the Pinocchio zk-SNARK](https://eprint.iacr.org/2017/540)
 
 The Techniques ZCash used in their CRS generation ceremony.
+
+4.[JubJub The ZCash Electric Coin Company's breakthrough improvements in SNARK performance](https://z.cash/technology/jubjub.html)
