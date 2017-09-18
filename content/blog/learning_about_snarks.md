@@ -78,4 +78,4 @@ Check out Appendix A. It's p cool on how simple verification is.
 
 The Techniques ZCash used in their CRS generation ceremony.
 
-4.[JubJub The ZCash Electric Coin Company's breakthrough improvements in SNARK performance](https://z.cash/technology/jubjub.html)
+4. [JubJub The ZCash Electric Coin Company's breakthrough improvements in SNARK performance](https://z.cash/technology/jubjub.html)
