@@ -6,10 +6,19 @@
     <description>Recent content in Blogs on Zaki Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 07 Sep 2017 13:38:05 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 26 Dec 2017 08:41:02 +0100</lastBuildDate>
     
 	<atom:link href="https://zaki.manian.org/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Blockchain 2017</title>
+      <link>https://zaki.manian.org/blog/blockchain-2017/</link>
+      <pubDate>Tue, 26 Dec 2017 08:41:02 +0100</pubDate>
+      
+      <guid>https://zaki.manian.org/blog/blockchain-2017/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Learning About ZK SNARKs</title>
