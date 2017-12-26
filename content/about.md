@@ -6,7 +6,7 @@ draft: false
 
 ### Bio
 
-Zaki Manian, Executive Director of [Trusted IoT Alliance](https://trusted-iot.org), is a prolific contributor to the development of blockchain and cryptocurrency technology. Zaki has deep expertise in cryptography and distributed consensus system.  He is also an advisor to the [Cosmos](https://comos.network) project, and several other investment funds and startup in the space.
+Zaki Manian, Executive Director of [Trusted IoT Alliance](https://trusted-iot.org), is a prolific contributor to the development of blockchain and cryptocurrency technology. Zaki has deep expertise in cryptography and distributed consensus system.  He is also an advisor to the [Cosmos](https://cosmos.network) project, and several other investment funds and startup in the space.
 
 ### Talks
 
