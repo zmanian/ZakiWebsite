@@ -11,4 +11,6 @@ Zaki Manian, Executive Director of [Trusted IoT Alliance](https://trusted-iot.or
 ### Talks
 
 [Reasoning About BFT Defcon Cryptovillage 2017](https://zmanian.github.io/ReasoningAboutBFT/)
+
+
 [Hyperledger as a Research Platform Stanford BPASE ’17](https://www.youtube.com/watch?v=X65hV4mkulM&feature=youtu.be)
