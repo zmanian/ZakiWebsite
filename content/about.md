@@ -6,9 +6,13 @@ draft: false
 
 ### Bio
 
-Zaki Manian, Executive Director of [Trusted IoT Alliance](https://trusted-iot.org), is a prolific contributor to the development of blockchain and cryptocurrency technology. Zaki has deep expertise in cryptography and distributed consensus system.  He is also an advisor to the [Cosmos](https://cosmos.network) project, and several other investment funds and startup in the space.
+Zaki Manian wears many hats in the blockspace. He is Director of Tendermint Labs at Tendermint Inc, Executive Director of the Trusted IoT Alliance, cofounder of the iqlusion validator. He is an expert in cryptography and distributed systems. Zaki is excited about extending access and availability of secure computing to as many people as possible. Zaki has been active in the blockchain space since 2013. 
 
 ### Talks
+
+[The Cosmos Stack and the Velocity of Web3 by Zaki Manian at Web3 Summit 2018](https://www.youtube.com/watch?v=BO8ZSAfh0Jo)
+
+[MIT Bitcoin Expo 2019 - The Cosmos Launch: Defining an MVP for a Next Generation Blockchain](https://www.youtube.com/watch?v=xqopwqXyURw)
 
 [Reasoning About BFT Defcon Cryptovillage 2017](https://zmanian.github.io/ReasoningAboutBFT/)
 
