@@ -6,7 +6,7 @@ draft: false
 
 ### Bio
 
-Zaki Manian wears many hats in the blockspace. He is Director of Tendermint Labs at Tendermint Inc, Executive Director of the Trusted IoT Alliance, cofounder of the iqlusion validator. He is an expert in cryptography and distributed systems. Zaki is excited about extending access and availability of secure computing to as many people as possible. Zaki has been active in the blockchain space since 2013. 
+Zaki Manian wears many hats in the blockspace. He is Director of Tendermint Labs at [Tendermint Inc](https://tendermint.com), Executive Director of the [Trusted IoT Alliance](https://trusted-iot.org), cofounder of the [iqlusion](https://iqlusion.io) validator. He is an expert in cryptography and distributed systems. Zaki is excited about extending access and availability of secure computing to as many people as possible. Zaki has been active in the blockchain space since 2013. 
 
 ### Talks
 
