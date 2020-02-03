@@ -1,7 +1,7 @@
-baseurl             = "https://zaki.manian.org/" # Must end with /
+baseURL             = "https://zaki.manian.org/" # Must end with /
 languageCode        = "en-us"
 title               = "Zaki Site"
-theme               = "introduction"
+theme               = "Introduction"
 enforce_ssl         = "zaki.manian.org"
 builddrafts         = true
 canonifyurls        = true
@@ -16,57 +16,68 @@ fixed = ":title/"
 blog  = "blog/:slug/"
 
 [params]
-author        = "Zaki Manian" # Full name shows on blog post pages
-firstname     = "Zaki" # First name shows in introduction on main page
-tagline       = "Stand in front of a mirror. Say Blockchain 3 times and I'll appear..." # Appears after the introduction
-introheight   = "large" # Input either 'medium' or 'large' or 'fullheight'
-theme         = "light" # Choose 'light' or 'dark'
-avatar        = "img/profile.png" # Path to image in static folder eg. img/avatar.png 
-email         = "zaki@manian.org" # Shows in contact section, or leave blank to omit
-localtime     = true # Show your current local time in contact section
-timezone      = "America/Los_Angeles" # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-dateform      = "Jan 2, 2006"
-dateformfull  = "Mon Jan 2 2006 15:04:05 EST"
-cachebuster   = true # Add the current unix timestamp in query string for cache busting css assets
-description   = "Zaki Cryptography, Blockchains etc"
-faviconfile   = "img/fav.ico"
-highlightjs   = true # Syntax highlighting
-lang          = "en"
-footertext    = "" # Text to show in footer (overrides default text)
-fadein        = true # Turn on/off the fade-in effect
+    themeStyle                   = "light"                 # Choose "light" or "dark"
+    favicon                      = "/img/fav.ico"          # Path to favicon file
+    showRSSButton                = false                   # Show rss button in navigation
+    fadeIn                       = true                    # Turn on/off the fade-in effect
+    fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
+    dateFormat                   = "Jan 2, 2006"
+    email                        = "zaki@manian.org"   # E-mail address for contact section
+    # customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
 
-showblog        = true # Show Blog section on home page
-showallposts    = true # Set 'true' to list all posts on home page, or set 'false' to link to separate blog list page
-showlatest      = true # Show latest blog post summary
-sharebuttons    = false # On post pages, show share this social buttons
+    # Configure the home page
+    [params.home]
+        introHeight              = "fullheight"            # Input either "medium" or "large" or "fullheight"
+        showLatest               = true                    # Show latest blog post summary
+        showAllPosts             = false                   # Set true to list all posts on home page, or set false to link to separate blog list page
+        numberOfProjectsToShow   = 3                       # Maximum number of projects to show on home page. Unset or comment out to show all projects
 
-showprojects    = false # Show Projects section on home page
+        localTime                = true                    # Show your current local time in contact section
+        timeZone                 = "America/Los_Angeles"   # Your timezone as in the TZ* column of this list: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+        timeFormat               = "h:mm A"                # https://momentjs.com/docs/#/displaying/format/
+    [params.projects]
+        useTwoColumns            = false                   # Use a layout with two columns instead of three
 
-# This is your projects section. Three images of the same dimensions will look the nicest. If images are omitted, text links will be shown.
-project1link    = "#"
-project1img     = "img/project1.jpg"
-project1title   = "Project 1"
+    # Share buttons on blog post pages
+    [params.share]
+        twitter                  = true
+        facebook                 = true
+        googlePlus               = true
+        pinterest                = true
 
-project2link    = "#"
-project2img     = "img/project2.jpg"
-project2title   = "Project 2"
-
-project3link    = "#"
-project3img     = "img/project3.jpg"
-project3title   = "Project 3"
+    # Social icons appear in introduction and contact section. Add as many more as you like.
+    # Icon pack "fab" includes social network icons, see: https://fontawesome.com/icons?d=gallery&s=brands&m=free
+    # Icon pack "fas" includes solid style icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
+    [[params.social]]
+        url   = "https://twitter.com/zmanian"
+        icon  = "twitter" # icon name without the 'fa-'
+        icon_pack = "fab"
 
 
-# Social icons appear in introduction and contact section. Add as many more as you like.
-# Find icon names here: http://fontawesome.io/cheatsheet/
+# If you don't want to use the default menu, you can define one by yourself
+# [[menu.main]]
+#     name    = "Home"
+#     url     = "/"
+#     weight  = 0
+# [[menu.main]]
+#     name    = "Blog"
+#     url     = "/blog/"
+#     weight  = 1
 
-[[params.social]]
-url = "https://twitter.com/zmanian"
-icon = "twitter"
+# We only use tag as a taxonomies
+# You can add more by yourself
+[taxonomies]
+  tag = "tags"
 
-[[params.social]]
-url = "https://facebook.com/zmanian"
-icon = "facebook"
+[languages]
+    [languages.en]
+        languageName     = "English"
+        languageCode     = "en-us"
+        contentDir       = "content/en"
+        weight           = 0
+        title            = "Introduction"
+        [languages.en.params]
+            description  = "Website Description"   # Max 160 characters show in search results
+            # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
-[[params.social]]
-url = "https://linkedin.com/zmanian"
-icon = "linkedin"
+

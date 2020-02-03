@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogs on Zaki Site</title>
@@ -18,7 +18,7 @@
       
       <guid>https://zaki.manian.org/blog/learning-about-zk-snarks/</guid>
       <description>ZK SNARKs are one of the most amazing products of modern cutting edge cryptography. They let a prover secretly run a program of arbitrary complexity and generate a compact proof that any can verify that correctly ran the program. The program can have secret inputs and the prover reveals nothing to the user.
-Zk SNARKs have been deployed in the ZCash cryptocurrency and many other protocols are examining using them.</description>
+Zk SNARKs have been deployed in the ZCash cryptocurrency and many other protocols are examining using them. SNARKs represent the culmination of decades of research into the field anonymous credentials.</description>
     </item>
     
     <item>
