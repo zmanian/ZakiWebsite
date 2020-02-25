@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Zaki Site</title>
+    <title>Introduction</title>
     <link>https://zaki.manian.org/</link>
-    <description>Recent content on Zaki Site</description>
+    <description>Recent content on Introduction</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 07 Sep 2017 13:38:05 -0700</lastBuildDate>
@@ -39,25 +39,6 @@ Our goal for the next 10-15 years are clear. Blockchain based systems should be 
       
       <guid>https://zaki.manian.org/blog/hello-world/</guid>
       <description>#Hello World</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://zaki.manian.org/contact/</link>
-      <pubDate>Sat, 24 Jun 2017 10:50:13 -0700</pubDate>
-      
-      <guid>https://zaki.manian.org/contact/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>https://zaki.manian.org/about/</link>
-      <pubDate>Sat, 24 Jun 2017 10:50:08 -0700</pubDate>
-      
-      <guid>https://zaki.manian.org/about/</guid>
-      <description>Bio Zaki Manian wears many hats in the blockspace. He is Director of Tendermint Labs at Tendermint Inc, Executive Director of the Trusted IoT Alliance, cofounder of the iqlusion validator. He is an expert in cryptography and distributed systems. Zaki is excited about extending access and availability of secure computing to as many people as possible. Zaki has been active in the blockchain space since 2013.
-Talks The Cosmos Stack and the Velocity of Web3 by Zaki Manian at Web3 Summit 2018</description>
     </item>
     
   </channel>
