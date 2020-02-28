@@ -12,7 +12,7 @@ I went to the University of Pennsylvania and graduated in 2005. I studied Histor
 
 In 2017, I co-founded the Trusted IoT Alliance and iqlusion.  I also started contributing more to Cosmos. I helped build the first validator dashboard and then Figment ran with the idea. I helped launch the first public Cosmos testnets. I spent a lot of 2018 working part time at All In Bits, building out the validator ecosystem, and figuring how do actually do quality assurance to enable the Cosmos launch. In 2019, after the Hub launch, I joined All in Bits as Director of Research. Where I worked on finishing the Cosmos design goals by completing IBC.
 
-After All In Bits proved too unstable to finish the work, I resigned in Feb 2019 and am completeing the IBC work with the community from contributors from [Agoric](https://agoric.com/), [Interchain Berlin](https://interchain.berlin) and [Informal](https://informal.systems).
+After All In Bits proved [too unstable](https://twitter.com/zmanian/status/1224384772677390336?lang=en) to finish the work, I resigned in Feb 2019 and am completeing the IBC work with the community from contributors from [Agoric](https://agoric.com/), [Interchain Berlin](https://interchain.berlin) and [Informal](https://informal.systems).
 
 
 
