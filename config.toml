@@ -22,7 +22,7 @@ blog  = "blog/:slug/"
     fadeIn                       = true                    # Turn on/off the fade-in effect
     fadeInIndex                  = false                   # Turn on/off the fade-in effect on the index page even if fade-in was otherwise turned off
     dateFormat                   = "Jan 2, 2006"
-    email                        = "zaki@manian.org"   # E-mail address for contact section
+    email                        = "zaki at manian.org"   # E-mail address for contact section
     # customCSS                    = ["foo.css"]             # Include custom css files placed under assets/
 
     # Configure the home page
@@ -75,9 +75,9 @@ blog  = "blog/:slug/"
         languageCode     = "en-us"
         contentDir       = "content/en"
         weight           = 0
-        title            = "Introduction"
+        title            = "Zaki's Ideas"
         [languages.en.params]
-            description  = "Website Description"   # Max 160 characters show in search results
+            description  = "Say blockchain in the mirror 3 times and I'll appear"   # Max 160 characters show in search results
             # footerText   = ""                      # Text to override default footer text (markdown allowed)
 
 

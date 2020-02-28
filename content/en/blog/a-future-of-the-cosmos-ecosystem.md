@@ -4,7 +4,6 @@ date: 2020-02-24T21:52:16-08:00
 draft: false
 ---
 
-# A future of the Cosmos ecosystem beyond All In Bits.
 Recent events have forced me to consider what possibilities exist for sustaining the ongoing development of Cosmos in the absence of single company that employs the majority of developers.
 
 Every single credible blockchain project envisions a day when development is more decentralized. In competitive environment, the question of how to actually have a multi-entity set of developers is always left for another day.
@@ -19,6 +18,6 @@ Another key, more credit and upside for essential public goods should accrue to 
 
 I’ve also been part of many experiments with how companies that do core dev work should be funded and incentivized. I ultimately don’t see a huge overlap between what makes a great culture for producing public goods and what makes a great culture for producing venture scale returns on equity.  I think there are going to be parts of the life cycle of both businesses and core contributors where they contribute a lot to the public goods and other parts where they focus more on private opportunities. A healthy ecosystem will accept this natural turnover and celebrate when people leave and when they come back. This revolution is a marathon.
 
-This is where I am working. 
+This is where I am working.
 
 I’d like to see new organizational structures form that work hand in hand with on-chain governance to promote sustainable, accountable, inclusive development in the Cosmos ecosystem. I expect to have a more concrete proposal in about a month.
